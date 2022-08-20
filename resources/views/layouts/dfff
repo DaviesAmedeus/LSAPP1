@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{{url('css/bootstrap.css')}}">
+        <title>{{config('app.name', 'LSAPP')}}</title>
+    </head>
+    <body>
+        @include('inc.navbar')
+        <div class="container">
+            <br>
+        @include('inc.messages')
+        @yield('content')
+
+        <script src="{{ url('ckeditor/ckeditor.js') }}"></script>
+        <script>
+        CKEDITOR.replace( 'summary-ckeditor' );
+        </script>
+
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-sm bg-light">
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/posts">Blog</a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item">
+        <a href="/posts/create">Create Post</a>
+      </li>
+    </ul>
+  
+  </nav>
+
+
+
+
+
+  <script src="{{ asset('js/app.js') }}" defer></script>

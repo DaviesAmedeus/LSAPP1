@@ -1,0 +1,265 @@
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+
+}
+
+.hrdivid{
+   border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-about {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+
+    color: black;
+}
+
+
+.intro-message {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+.fsize{
+        font-size: 15px;
+    }
+    .isize{
+        font-size: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.icons{
+    background: white; 
+    padding: 30px; 
+    border-radius: 50%; 
+    border: 5px solid #A6BDDB;"
+}
+
+.tbold{
+    font-weight: bold;
+}
+
+
+.template-file{text-align:center}
+.template-file__image{display:inline-block;-webkit-transition:.3s;transition:.3s;}
+.template-file__image:hover{position:relative;z-index:1; margin-top:130px;}
+
+  @media (min-width: 992px){.template-file__image:hover{-webkit-transform:scale(1.5);transform:scale(1.5);}}
+  .template-file__image img{width:100%}
+  .tumbl{-webkit-transform-origin:left center;transform-origin:left center}
+  .thumbr{-webkit-transform-origin:right center;transform-origin:right center}
+  .template-file__image img{display:block}
+  .template-file__image .btn-primary{position:absolute;top:45%;left:3rem;right:3rem;opacity:0;font-size:1.8rem}
+  .template-file__image:hover .btn-primary{opacity:1;-webkit-transition:.2s .3s opacity;transition:.2s .3s opacity}
+
+
+.thumbl{-webkit-transform-origin:left center;transform-origin:left center;}
+
+.thumbr{-webkit-transform-origin:right center;transform-origin:right center;}
+
+.mt{
+  margin-top: 5px;
+}
+
+/*=============================                ============================*/
+/*============================= Footer Style   ============================*/
+/*=============================                ============================*/
+
+    .bg{
+        background: #313037;
+      }
+  /*========= Icons =========== */
+
+    /* footer social icons */
+    ul.social-network {
+      list-style: none;
+      display: inline;
+      margin-left:0 !important;
+      padding: 0;
+    }
+    ul.social-network li {
+      display: inline;
+      margin: 0 5px;
+    }
+
+    /* footer social icons */
+    
+    .social-network a.icoFacebook:hover {
+      background-color:#3B5998;
+    }
+    .social-network a.icoInsta:hover {
+      background-color:#F00;
+    }
+    .social-network a.icoTwitter:hover {
+      background-color:#33ccff;
+    }
+    
+    .social-network a.icoLinkedin:hover {
+      background-color:#007bb7;
+    }
+     .social-network a.icoInsta:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+     .social-network a.icoLinkedin:hover i {
+      color:#fff;
+    }
+    a.socialIcon:hover, .socialHoverClass {
+      color:#44BCDD;
+    }
+    .social-circle li a {
+      display:inline-block;
+      position:relative;
+      margin:0 auto 0 auto;
+      -moz-border-radius:50%;
+      -webkit-border-radius:50%;
+      border-radius:50%;
+      text-align:center;
+      width: 50px;
+      height: 50px;
+      font-size:20px;
+    }
+    .social-circle li i {
+      margin:0;
+      line-height:50px;
+      text-align: center;
+    }
+    .social-circle li a:hover i, .triggeredHover {
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -ms--transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      transition: all 0.2s;
+    }
+    .social-circle i {
+      color: #fff;
+      -webkit-transition: all 0.8s;
+      -moz-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      -ms-transition: all 0.8s;
+      transition: all 0.8s;
+    }
+    .tr{
+          color: red;
+        }
+
+    .text-white{
+        color: white;
+    }
+.darkbg{
+  background: black;
+}
+
+.logo{
+  width: 34px;
+  height: 34px;
+  margin-top: 5px;
+  margin-left: 5px;
+  transform: rotateZ(20deg);
+}
+.logolink{
+  text-decoration: none;
+}
+
+.logolink:hover{
+  text-decoration: none;
+}
+.build{
+  
+  position: fixed;
+  top: 15px;
+  left: 75px;
+}
+.cwell {
+  padding: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: none;
+  color: black;
+  border: none;
+
+}
+
+.text-right{
+  text-align: right;
+
+}
+.bd{
+      border: 1px solid gray;
+      border-radius: 50%;
+      
+}
+
+.inpbox{
+  border:1px solid #abc; 
+  border-radius: 5px; 
+  padding-top: 5px;
+}
